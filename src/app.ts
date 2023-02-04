@@ -12,7 +12,7 @@ app.use(Express.json())
 app.use(router)
 
 
-app.listen(process.env.PORT, () => {
+app.listen(3000, () => {
     connection()
     console.log('APP rodando')
 })
