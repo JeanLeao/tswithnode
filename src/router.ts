@@ -3,8 +3,8 @@ import { jsonOla, jsonResponse } from "./Controllers/teste";
 const router = Router()
 
 
-router.post("/test", jsonResponse)
-router.post('/olaa', jsonOla);
+router.get("/test", jsonResponse)
+router.get('/olaa', jsonOla);
 
 export default router;
 
